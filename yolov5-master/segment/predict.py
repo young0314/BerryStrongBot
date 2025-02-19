@@ -235,8 +235,8 @@ def run(
                             strawberry_count = 0  # strawberry 클래스 객체 수 카운트
                             if class_name == 'strawberry':
                                 strawberry_count += 1
-                                print(strawberry_count, "")  # 여기까진 나옴
-                                class_to_number[class_name] = strawberry_count  # strawberry 클래스에 번호 부여
+                                print(strawberry_count, "")  
+                                class_to_number[class_name] = strawberry_count  # strawberry클래스에 왼쪽에서부터 수확 순서 부여
 
                                 # bounding박스좌표
                                 x1 = int(xyxy[0].item())  # bounding box 좌표 x1

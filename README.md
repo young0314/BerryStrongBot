@@ -18,9 +18,9 @@
 - ubuntu18.04
 - Database : MySQL
 - HardWare : DofBot, Jetson Nano
+- Train : Google colab
 - YOLOv5
 - ROS
-- Google colab
 
 ## 📃 기획 배경
 - 초고령화로 인한 농촌지역의 노동력 부족문제를 해결하기 위해 수확로봇 프로젝트를 기획함
@@ -29,6 +29,7 @@
 ## 📌 주요 기능
 #### 익은/안익은 딸기 학습 
 - 익은 딸기만을 수확하기 위해 두가지 유형의 모델을 학습
+  
 #### 익은 딸기의 숙성도 계산
 - 정확한 수확 여부를 정하기 위해서 한 번 더 딸기의 익음 정도를 구분함
 - 딸기사진을 RGB값으로 변환해서 계산
@@ -41,8 +42,13 @@ https://github.com/young0314/BerryStrongBot/blob/30720c801a248f413796bf9f7404279
 
 #### 좌표 전달과 DB에 저장
 - 계산한 좌표를 하드웨어에 전달하며 수확한 데이터(좌표, 수확일)들을 저장
-yolov5-master/segment/YoloRequestResponse.py
+https://github.com/young0314/BerryStrongBot/blob/58d96f6fe7f646359755b707d07b817b3dce1731/yolov5-master/segment/YoloRequestResponse.py
 
 #### 숙성도 70% 이상일 때 로봇팔로 수확
 - 상품을 판매하기에 적합한 숙성도인 70%를 기준으로 수확
 
+## 시연
+### 딸기 인식
+![Image](https://github.com/user-attachments/assets/c20dac3e-00f5-41c2-a215-fac0bdfc631f)
+
+### 딸기 수확

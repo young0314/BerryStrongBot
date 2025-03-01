@@ -220,7 +220,7 @@ def upload_file():
                     x_camera = float(x_str)
                     y_camera = float(y_str)
 
-                #좌표 성정 후 로봇 좌표 변환 및 이동 명령
+                #좌표 설정 후 로봇 좌표 변환 및 이동 명령
                 if x_camera is not None and y_camera is not None:
                     x_robot, y_robot = instance.convert_camera_to_robot_coordinates(x_camera, y_camera)
                     instance.move_to_xyz(x_robot, y_robot)

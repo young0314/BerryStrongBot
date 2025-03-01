@@ -52,3 +52,4 @@ https://github.com/young0314/BerryStrongBot/blob/58d96f6fe7f646359755b707d07b817
 ![Image](https://github.com/user-attachments/assets/c20dac3e-00f5-41c2-a215-fac0bdfc631f)
 
 ### 딸기 수확
+![로봇 수확](https://github.com/user-attachments/assets/91b0a7d7-6dd1-4c37-92aa-f0f302540867)
